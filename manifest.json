@@ -1,20 +1,20 @@
 {
-   "background_page": "BubbleTranslate.html",
+   "background_page": "background.html",
    "content_scripts": [ {
       "js": [ "BubbleTranslate.js" ],
       "matches": [ "http://*/*", "https://*/*" ]
    } ],
    "description": "Real-Time & inline text translator from any language to yours.",
    "icons": {
-      "128": "128.png",
-      "16": "16.png",
-      "32": "32.png",
-      "48": "48.png"
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png"
    },
    "name": "Bubble Translate",
    "options_page": "preferences.html",
    "page_action": {
-      "default_icon": "16.png",
+      "default_icon": "images/16.png",
       "default_title": "Bubble Translate",
       "popup": "popup.html"
    },
