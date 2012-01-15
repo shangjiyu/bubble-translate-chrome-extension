@@ -1,1 +1,0 @@
-var bingAppId = "key-here";
